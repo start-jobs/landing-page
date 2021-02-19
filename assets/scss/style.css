@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'Brush Script MT';
+  src: url("../fonts/BrushScriptMT.eot");
+  src: url("../fonts/BrushScriptMT.eot?#iefix") format("embedded-opentype"), url("../fonts/BrushScriptMT.woff2") format("woff2"), url("../fonts/BrushScriptMT.woff") format("woff"), url("../fonts/BrushScriptMT.ttf") format("truetype"), url("../fonts/BrushScriptMT.svg#BrushScriptMT") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+html, body {
+  min-height: 100%;
+  background-color:  #002950;
+  overflow-x: hidden;
+}
+
+body {
+  background:  #002950;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #404040;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+
+textarea:focus, input:focus, select:focus, a:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+a {
+  color: #404040;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ed1c24;
+  text-decoration: none;
+}
+
+p {margin-bottom: 0px;}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  color: #404040;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1230px;
+  }
+}
+
+.site-logo img {
+   max-width: 50%;
+}
+
+.landing {background: #fff;}
+
+#main-header {padding-top:52px;}
+
+.coming-soon {margin-top:34px;}
+
+.coming-soon p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  /* dark */
+
+  color: #003261;
+}
+
+.coming-soon h1 {
+  font-family: 'Cormorant SC', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 116px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  /* dark */
+  text-align: center;
+  color: #003261;
+  margin-top:60px;
+}
+
+.line {
+  margin-top:30px;
+}
+
+#main-footer {
+  margin-top:120px;
+  border-top:10px solid #C99456;
+
+}
+
+#main-footer a {color:#fff;}
+#main-footer a:hover {color:#C99456;}
+
+#main-footer .container-fluid {
+  background: #003261;
+  padding-top:40px;
+}
+
+#main-footer .container-fluid p.sc {
+  color:#fff;
+  font-family: 'Cormorant SC', serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300;
+}
+
+#main-footer .container-fluid p.sc.phone {
+ font-size: 48px;
+ line-height: 58px;
+ margin-bottom: 10px;
+}
+
+#main-footer .container-fluid p {
+  color:#fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+#main-footer .container-fluid p.mail {
+  font-size:24px;
+}
+
+#main-footer .container-fluid .info-block {
+  padding:30px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom:40px;
+  width: 100%;
+}
+
+#main-footer .copyright {
+  background: #002950;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+#main-footer .copyright p {
+  text-align: center;
+  color:#fff;
+  font-size:18px;
+}
+
+.mail-top {
+  position: absolute;
+
+  left: 0px;
+  top: 0px;
+
+  /* dark */
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 130px 130px 0 0;
+  border-color: #003261 transparent transparent transparent;
+
+}
+
+.phone-top {
+  position: absolute;
+  right:0px;
+  top: 0px;
+
+  /* dark */
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 130px 130px 0;
+  border-color: transparent #003261 transparent transparent;
+  
+}
+
+.phone-top a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: -110px;
+  top: 15px;
+}
+
+.mail-top a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-top: -110px;
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
